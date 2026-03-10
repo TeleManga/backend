@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemanga.Domain", "Telemanga.Domain\Telemanga.Domain.csproj", "{DA94BCB9-5332-4345-935B-3C02EC0D8B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemanga.Database", "Telemanga.Database\Telemanga.Database.csproj", "{755E7F14-38A9-49E2-8665-46611E9E11BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemanga.UnitTests", "Telemanga.UnitTests\Telemanga.UnitTests.csproj", "{7B752439-157A-40D9-938B-DA73C1490814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemanga.IntegrationTests", "Telemanga.IntegrationTests\Telemanga.IntegrationTests.csproj", "{661483F3-891C-45AB-A17C-416BCEFCD6CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemanga.TestsCommon", "Telemanga.TestsCommon\Telemanga.TestsCommon.csproj", "{D942FD8D-8072-485D-9DBC-1F093D3BDBA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,25 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA94BCB9-5332-4345-935B-3C02EC0D8B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA94BCB9-5332-4345-935B-3C02EC0D8B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA94BCB9-5332-4345-935B-3C02EC0D8B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA94BCB9-5332-4345-935B-3C02EC0D8B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755E7F14-38A9-49E2-8665-46611E9E11BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755E7F14-38A9-49E2-8665-46611E9E11BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755E7F14-38A9-49E2-8665-46611E9E11BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755E7F14-38A9-49E2-8665-46611E9E11BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B752439-157A-40D9-938B-DA73C1490814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B752439-157A-40D9-938B-DA73C1490814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B752439-157A-40D9-938B-DA73C1490814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B752439-157A-40D9-938B-DA73C1490814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661483F3-891C-45AB-A17C-416BCEFCD6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661483F3-891C-45AB-A17C-416BCEFCD6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661483F3-891C-45AB-A17C-416BCEFCD6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661483F3-891C-45AB-A17C-416BCEFCD6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D942FD8D-8072-485D-9DBC-1F093D3BDBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D942FD8D-8072-485D-9DBC-1F093D3BDBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D942FD8D-8072-485D-9DBC-1F093D3BDBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D942FD8D-8072-485D-9DBC-1F093D3BDBA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
